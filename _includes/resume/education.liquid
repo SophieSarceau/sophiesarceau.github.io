@@ -40,6 +40,20 @@
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+          {%- comment -%} Optional advisor(s) support: either 'advisor' (string) or 'advisors' (array) {%- endcomment -%}
+          {% assign advisors_text = nil %}
+          {% if content.advisors %}
+            {% assign advisors_text = content.advisors | join: ', ' %}
+          {% elsif content.advisor %}
+            {% assign advisors_text = content.advisor %}
+          {% endif %}
+          {% if advisors_text and advisors_text != '' %}
+            <div class="ml-1 ml-md-4" style="font-size: 0.9rem">
+              <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
+              <span class="sr-only">Advisor:</span>
+              <span>Advisor: {{ advisors_text }}</span>
+            </div>
+          {% endif %}
           <ul class="items">
             {% for item in content.courses %}
               <li>

@@ -1,115 +1,254 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{du2025smp,
+    author = {Du*, Hao and Zheng*, Xinzhe and Ren*, Yuchen and Huang, He and Gong, Xinqi and Ouyang, Wanli and Zhang†, Yang and Lu†, Yan},
+    title = {Improving protein and protein interactions using pseudo-dimers derived from monomeric proteins},
+    booktitle = {under review},
+    year = {2025},
+    keywords = {ai4protein},
+    preview={smp.png},
 }
 
-@book{einstein1956investigations,
+@inproceedings{cheng2025sd,
+    author = {Cheng*, Linqi and Zheng*, Xinzhe and Jiang*, Shiyu (Jason) and Hu, Yu and Liu, Yijie and Yang, Kaiqiang and Rui, Jinyan and Ding, Haoxue and Zhang, Mengxi and Yuan, Teng and Ye, Haoxin and Li, Chen-Long and Yang, Kevin K. and Huang†, Xiongyi and Xiao†, Han},
+    title = {Sequence Display: Generating Large-Scale Sequence–Activity Datasets to Advance Universal Protein Evolution },
+    booktitle = {under review},
+    year = {2025},
+    keywords = {ai4protein},
+    preview={sd.png},
+}
+
+@inproceedings{yuan2025biocatalytic,
+  title     = {Biocatalytic Synthesis of N-protected $\alpha$-Amino Acids through 1,3-Nitrogen Migration by Nonheme Iron Enzymes},
+  author    = {Yuan*, Teng and Zhang*, Mengxi and Cheng, Linqi and Zheng, Xinzhe and Jiang, Shiyu and Huang†, Xiongyi and Xiao†, Han},
+  booktitle  = {under review},
+  year      = {2025},
+  keywords  = {ai4protein},
+  preview={biocatalytic_jacs.png},
+}
+
+@inproceedings{
+  zheng2025pring,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={{PRING}: Rethinking Protein-Protein Interaction Prediction from Pairs to Graphs},
+  abstract={Deep learning-based computational methods have achieved promising results in predicting protein-protein interactions (PPIs). However, existing benchmarks predominantly focus on isolated pairwise evaluations, overlooking a model's capability to reconstruct biologically meaningful PPI networks, which is crucial for biology research. To address this gap, we introduce PRING, the first comprehensive benchmark that evaluates PRotein-protein INteraction prediction from a Graph-level perspective. PRING curates a high-quality, multi-species PPI network dataset comprising 21,484 proteins and 186,818 interactions, with well-designed strategies to address both data redundancy and leakage. Building on this golden-standard dataset, we establish two complementary evaluation paradigms: (1) topology-oriented tasks, which assess intra and cross-species PPI network construction, and (2) function-oriented tasks, including protein complex pathway prediction, GO module analysis, and essential protein justification. These evaluations not only reflect the model's capability to understand the network topology but also facilitate protein function annotation, biological module detection, and even disease mechanism analysis. Extensive experiments on four representative model categories, consisting of sequence similarity-based, naive sequence-based, protein language model-based, and structure-based approaches, demonstrate that current PPI models have potential limitations in recovering both structural and functional properties of PPI networks, highlighting the gap in supporting real-world biological applications. We believe PRING provides a reliable platform to guide the development of more effective PPI prediction models for the community. The dataset and source code of PRING are available at https://github.com/SophieSarceau/PRING.},
+  author={Xinzhe Zheng* and Hao Du* and Fanding Xu* and Jinzhe Li* and Zhiyuan Liu† and WenkangWang and Tao Chen and Wanli Ouyang and Stan Z. Li and Yan Lu† and Nanqing Dong† and Yang Zhang†},
+  booktitle={NeurIPS Datasets and Benchmarks Track},
+  year={2025},
+  url={https://openreview.net/forum?id=mHCOVlFXTw},
+  keywords={ai4protein},
+  preview={pring.png},
+  pdf={https://openreview.net/pdf?id=mHCOVlFXTw},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{Su2024SaprotHub,
+  title={SaprotHub: Making Protein Modeling Accessible to All Biologists},
+  abstract={Training and deploying large protein language models (PLMs) typically requires deep machine learning (ML) expertise—a significant barrier for many researchers outside the ML field. SaprotHub overcomes this challenge by offering an intuitive platform that democratizes every aspect of the PLM lifecycle—from training and prediction to storage and sharing. This approach fosters unprecedented collaboration within the biology community without demanding specialized ML skills. At SaprotHub’s core is Saprot, an advanced foundation PLM. Its ColabSaprot framework potentially powers hundreds of protein training and prediction applications, enabling researchers to collaboratively build and share customized models. This ecosystem not only enhances user engagement but catalyzes community-driven innovation in the biology community.},
+  author={Su, Jin and Li, Zhikai and Han, Chenchen and Zhou, Yuyang and He, Yan and Shan, Junjie and Zhou, Xibin and Chang, Xing and Jiang, Shiyu and Ma, Dacheng and The OPMC and Steinegger, Martin and Ovchinnikov, Sergey and Yuan†, Fajie},
+  year={2025},
+  journal={Nature Biotechnology Brief Communications},
+  keywords={ai4protein},
+  pdf={https://www.biorxiv.org/content/10.1101/2024.05.24.595648v6},
+  preview={saprothub.png},
+}
+
+
+
+@inproceedings{zheng2025apo2mol,
+    author = {Zheng, Xinzhe and Jiang, Shiyu and Seabra, Gustovo and Li, Chenglong and Li, Yanjun},
+    title = {Apo2Mol: 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models},
+    booktitle = {under review},
+    year = {2025},
+    keywords = {aidd},
+    preview={apo2mol.png},
+}
+
+
+
+@article{you2025structure,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  title={Structure-Informed Insights into Catalytic Mechanism and Multidomain Collaboration in $\alpha$-Agarase CmAga},
+  abstract={α-Agarases are glycoside hydrolases that cleave α-1,3-glycosidic bonds in agarose to produce bioactive agarooligosaccharides. Despite their great industrial potential, the structures and functional mechanisms of α-agarases remain unclear due to their complex and flexible architecture. Here, we investigated the structure-based catalytic mechanism of α-agarase CmAga from Catenovulum maritimum STB14 by integrated Cryo-EM and AlphaFold2. D994 and E1129 were identified as catalytic residues, with E1129 selectively recognizing α-1,3-glycosidic bonds. Y858, W1201, Y1164, and W1166 facilitate preferential substrate binding at the −3 ∼ +3 subsites. Molecular dynamics simulations and neural relational inference modeling revealed a cooperative mechanism involving the catalytic domain (CD) and four carbohydrate-binding modules (CBMs), with CBM6–1 and CBM6–2 capturing substrates, CBM_like transferring them to the CD, and CBM6–3 stabilizing the active site. D149 and L608 served as pivotal nodes within the interdomain communication pathways. These insights provide a foundation for mechanistic investigations and rational engineering of carbohydrate-active enzymes (CAZymes) with multiple CBMs.},
+  author={You, Yuxian and Gan, Bee Koon and Luo, Min and Zheng, Xinzhe and Dong, Nanqing and Tian, Yixiong and Li, Caiming and Kong, Haocun and Gu, Zhengbiao and Yang†, Daiwen and Li† Zhaofeng},
+  journal={Journal of Agricultural and Food Chemistry},
+  volume={73},
+  number={13},
+  pages={7975--7989},
+  year={2025},
+  publisher={ACS Publications},
+  keywords={ai4s},
+  preview={structure_jafc.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{su-etal-2025-many,
+    bibtex_show={true},
+    title = "Many Heads Are Better Than One: Improved Scientific Idea Generation by A {LLM}-Based Multi-Agent System",
+    author = "Su*, Haoyang  and
+      Chen*, Renqi  and
+      Tang†, Shixiang  and
+      Yin, Zhenfei  and
+      Zheng, Xinzhe  and
+      Li, Jinzhe  and
+      Qi, Biqing  and
+      Wu, Qi  and
+      Li, Hui  and
+      Ouyang, Wanli  and
+      Torr, Philip  and
+      Zhou, Bowen  and
+      Dong†, Nanqing",
+    booktitle = "ACL",
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1368/",
+    doi = "10.18653/v1/2025.acl-long.1368",
+    abstract = "The rapid advancement of scientific progress requires innovative tools that can accelerate knowledge discovery. Although recent AI methods, particularly large language models (LLMs), have shown promise in tasks such as hypothesis generation and experimental design, they fall short of replicating the collaborative nature of real-world scientific practices, where diverse experts work together in teams to tackle complex problems. To address the limitations, we propose an LLM-based multi-agent system, i.e., Virtual Scientists (VIRSCI), designed to mimic the teamwork inherent in scientific research. VIRSCI organizes a team of agents to collaboratively generate, evaluate, and refine research ideas. Through comprehensive experiments, we demonstrate that this multi-agent approach outperforms the state-of-the-art method in producing novel scientific ideas. We further investigate the collaboration mechanisms that contribute to its tendency to produce ideas with higher novelty, offering valuable insights to guide future research and illuminating pathways toward building a robust system for autonomous scientific discovery. The code is available at https://github.com/open-sciencelab/Virtual-Scientists.",
+    keywords={ai4s},
+    preview={virsci.png},
+    pdf={https://aclanthology.org/2025.acl-long.1368.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{zhang2024empowering,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  title={Empowering and Assessing the Utility of Large Language Models in Crop Science},
+  abstract={Large language models (LLMs) have demonstrated remarkable efficacy across knowledge-intensive tasks. Nevertheless, their untapped potential in crop science presents an opportunity for advancement. To narrow this gap, we introduce CROP, which includes a novel instruction tuning dataset specifically designed to enhance LLMs’ professional capabilities in the crop science sector, along with a benchmark that serves as a comprehensive evaluation of LLMs’ understanding of the domain knowledge. The CROP dataset is curated through a task-oriented and LLM-human integrated pipeline, comprising 210,038 single-turn and 1,871 multi-turn dialogues related to crop science scenarios. The CROP benchmark includes 5,045 multiple-choice questions covering three difficulty levels. Our experiments based on the CROP benchmark demonstrate notable enhancements in crop science-related tasks when LLMs are fine-tuned with the CROP dataset. To the best of our knowledge, CROP dataset is the first-ever instruction tuning dataset in the crop science domain. We anticipate that CROP will accelerate the adoption of LLMs in the domain of crop science, ultimately contributing to global food production.},
+  author={Hang Zhang* and Jiawei Sun* and Renqi Chen* and Wei Liu and Zhonghang Yuan and Xinzhe Zheng and Zhefan Wang and Zhiyuan Yang and Hang Yan and Han-Sen Zhong and Xiqing Wang and Wanli Ouyang and Fan Yang and Nanqing Dong†},
+  booktitle={NeurIPS Datasets and Benchmarks Track},
+  year={2024},
+  url={https://openreview.net/forum?id=hMj6jZ6JWU},
+  keywords={ai4s},
+  preview={crop.png},
+  pdf={https://openreview.net/pdf?id=hMj6jZ6JWU},
 }
 
-@book{przibram1967letters,
+@article{ye2024cost,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  title={Cost-effective and wireless portable device for rapid and sensitive quantification of micro/nanoplastics},
+  author={Ye, Haoxin and Zheng, Xinzhe and Yang, Haoming and Kowal, Matthew D. and Seifried, Teresa M. and Singh, Gurvendra Pal and Aayush, Krishna and Gao, Guang and Grant, Edward and Kitts, David and Yada, Rickey Y. and Yang†, Tianxi},
+  abstract={The accumulation of micro/nanoplastics (MNPs) in ecosystems poses tremendous environmental risks for terrestrial and aquatic organisms. Designing rapid, field-deployable, and sensitive devices for assessing the potential risks of MNPs pollution is critical. However, current techniques for MNPs detection have limited effectiveness. Here, we design a wireless portable device that allows rapid, sensitive, and on-site detection of MNPs, followed by remote data processing via machine learning algorithms for quantitative fluorescence imaging. We utilized a supramolecular labeling strategy, employing luminescent metal–phenolic networks composed of zirconium ions, tannic acid, and rhodamine B, to efficiently label various sizes of MNPs (e.g., 50 nm–10 μm). Results showed that our device can quantify MNPs as low as 330 microplastics and 3.08 × 106 nanoplastics in less than 20 min. We demonstrated the applicability of the device to real-world samples through determination of MNPs released from plastic cups after hot water and flow induction and nanoplastics in tap water. Moreover, the device is user-friendly and operative by untrained personnel to conduct data processing on the APP remotely. The analytical platform integrating quantitative imaging, customized data processing, decision tree model, and low-cost analysis ($0.015 per assay) has great potential for high-throughput screening of MNPs in agrifood and environmental systems.},
+  journal={ACS sensors},
+  volume={9},
+  number={9},
+  pages={4662--4670},
+  year={2024},
+  publisher={ACS Publications},
+  keywords={ai4s},
+  preview={cost_acs_sensors.png},
+  pdf={https://pubs.acs.org/doi/10.1021/acssensors.4c00957},
 }
+
+
+
+@inproceedings{zheng-etal-2025-promind,
+    bibtex_show={true},
+    title = "{P}ro{M}ind-{LLM}: Proactive Mental Health Care via Causal Reasoning with Sensor Data",
+    author = "Zheng*, Xinzhe  and
+      Ji*†, Sijie  and
+      Sun*, Jiawei  and
+      Chen, Renqi  and
+      Gao, Wei  and
+      Srivastava, Mani",
+    booktitle = "ACL Findings",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1033/",
+    doi = "10.18653/v1/2025.findings-acl.1033",
+    abstract = "Mental health risk is a critical global public health challenge, necessitating innovative and reliable assessment methods. With the development of large language models (LLMs), they stand out to be a promising tool for explainable mental health care applications. Nevertheless, existing approaches predominantly rely on subjective textual mental records, which can be distorted by inherent mental uncertainties, leading to inconsistent and unreliable predictions. To address these limitations, this paper introduces ProMind-LLM. We investigate an innovative approach integrating objective behavior data as complementary information alongside subjective mental records for robust mental health risk assessment. Specifically, ProMind-LLM incorporates a comprehensive pipeline that includes domain-specific pretraining to tailor the LLM for mental health contexts, a self-refine mechanism to optimize the processing of numerical behavioral data, and causal chain-of-thought reasoning to enhance the reliability and interpretability of its predictions. Evaluations of two real-world datasets, PMData and Globem, demonstrate the effectiveness of our proposed methods, achieving substantial improvements over general LLMs. We anticipate that ProMind-LLM will pave the way for more dependable, interpretable, and scalable mental health case solutions.",
+    keywords={ai4health},
+    pdf={https://aclanthology.org/2025.findings-acl.1033.pdf},
+    preview={promind-llm.png},
+}
+
+@inproceedings{ji2025transforming,
+  bibtex_show={true},
+  keywords={ai4health},
+  title={Transforming mental health care with autonomous llm agents at the edge},
+  abstract={The integration of Large Language Models (LLMs) with mobile devices is set to transform mental health care accessibility and quality. This paper introduces MindGuard, an autonomous LLM agent that utilizes mobile sensor data and engages in proactive, personalized conversations while ensuring user privacy through local processing. Unlike traditional mental health AI tools, MindGuard enables real-time, context-aware interventions by dynamically adapting to users' emotional and physiological states. The real-world implementation demonstrates its effectiveness with the ultimate goal of creating an accessible, scalable, and personalized mental healthcare ecosystem for anyone with smart mobile devices.},
+  author={Ji*, Sijie and Zheng*, Xinzhe and Gao, Wei and Srivastava, Mani},
+  booktitle={ACM Sensys},
+  pages={692--693},
+  year={2025},
+  pdf={https://dl.acm.org/doi/10.1145/3715014.3724073},
+  preview={mindguard.png},
+}
+
+@inproceedings{zheng2024predicting,
+  bibtex_show={true},
+  title={Predicting adverse events for patients with type-1 diabetes via self-supervised learning},
+  abstract={Predicting blood glucose levels is fundamental for precise primary care of type-1 diabetes (T1D) patients. However, it is challenging to predict glucose levels accurately, not to mention the early alarm of adverse events (hyperglycemia and hypoglycemia), namely the minority class. In this paper, we propose BG-BERT, a novel self-supervised learning framework for blood glucose level prediction. In particular, BG-BERT incorporates masked autoencoder to capture rich contextual information of blood glucose records for accurate prediction. More specifically, SMOTE data augmentation and shrinkage loss are employed to effectively handle adverse events without discrimination. We evaluate BG-BERT on two benchmark datasets against two state-of-the-art base-line models. The experimental results highlight the significant improvements achieved by BG-BERT in glucose level prediction accuracy (measured by RMSE) and sensitivity to adverse events, with average lifting ratios of 9.5% and 44.9%, respectively.},
+  author={Zheng, Xinzhe and Ji, Sijie and Wu†, Chenshu},
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1526--1530},
+  year={2024},
+  organization={IEEE},
+  keywords={ai4health},
+  pdf={https://ieeexplore.ieee.org/document/10446832},
+  preview={bg-bert.png}
+}
+
+
+
+@article{zheng2025neurit,
+  bibtex_show={true},
+  title={NeurIT: Pushing the Limit of Neural Inertial Tracking for Indoor Robotic IoT},
+  abstract={Inertial tracking is vital for robotic IoT and has gained popularity thanks to the ubiquity of low-cost inertial measurement units and deep learning-powered tracking algorithms. Existing works, however, have not fully utilized IMU measurements, particularly magnetometers, nor have they maximized the potential of deep learning to achieve the desired accuracy. To address these limitations, we introduce NeurIT, which elevates tracking accuracy to a new level. NeurIT employs a Time-Frequency Block-recurrent Transformer (TF-BRT) at its core, combining both RNN and Transformer to learn representative features in both time and frequency domains. To fully utilize IMU information, we strategically employ body-frame differentiation of magnetometers, considerably reducing the tracking error. We implement NeurIT on a customized robotic platform and conduct evaluation in various indoor environments. Experimental results demonstrate that NeurIT achieves a mere 1-meter tracking error over a 300-meter distance. Notably, it significantly outperforms state-of-the-art baselines by 48.21% on unseen data. Moreover, NeurIT demonstrates robustness in large urban complexes and performs comparably to the visual-inertial approach (Tango Phone) in vision-favored conditions while surpassing it in feature-sparse settings. We believe NeurIT takes an important step forward toward practical neural inertial tracking for ubiquitous and scalable tracking of robotic things. NeurIT is open-sourced here: https://github.com/aiot-lab/NeurIT.},
+  author={Zheng, Xinzhe and Ji, Sijie and Pan, Yipeng and Zhang, Kaiwen and Wu†, Chenshu},
+  journal={IEEE Transactions on Mobile Computing},
+  year={2025},
+  publisher={IEEE},
+  keywords={mobilecomputing},
+  pdf={https://arxiv.org/pdf/2404.08939},
+  preview={neurit.gif},
+}
+
+@inproceedings{zheng2025magnetometer,
+  bibtex_show={true},
+  title={Magnetometer-Calibrated Hybrid Transformer for Robust Inertial Tracking in Robotics},
+  abstract={Inertial tracking is vital for autonomous robots and has gained popularity with the ubiquity of low-cost Inertial Measurement Units (IMUs) and deep learning-powered tracking algorithms. Existing works, however, have not fully utilized IMU measurements, particularly magnetometers, nor maximized the potential of deep learning to achieve the desired accuracy. To bridge the gap, we introduce NeurIT, which employs a Time-Frequency Block-recurrent Transformer (TF-BRT) at its core, combining RNN and Transformer to learn both time-frequency representative features. To fully utilize IMU information, we strategically employ differentiation of body-frame magnetometers for orientation calibration in a sensor fusion manner. Experiments conducted in diverse environments show that NeurIT maintains a mere 1 -meter tracking error over a 300 - meter distance, surpassing state-of-the-art baselines by 48.21 % on unseen data. NeurIT also performs comparably to the visual-inertial approach (Tango Phone) in vision-favored conditions and surpasses it in plain environments. We share the code and data to promote further research: https://github.com/aiot-lab/NeurIT.},
+  author={Zheng, Xinzhe and Ji, Sijie and Pan, Yipeng and Zhang, Kaiwen and Pan, Jia and Wu†, Chenshu},
+  booktitle={ICRA},
+  pages={16102--16108},
+  year={2025},
+  organization={IEEE},
+  keywords={mobilecomputing},
+  pdf={https://ieeexplore.ieee.org/abstract/document/11127359},
+  preview={magnetometer.png}
+}
+
+@inproceedings{ji2024hargpt,
+  bibtex_show={true},
+  title={Hargpt: Are llms zero-shot human activity recognizers?},
+  abstract={There is an ongoing debate regarding the potential of Large Language Models (LLMs) as foundational models seamlessly integrated with Cyber- Physical Systems (CPS) for interpreting the physical world. In this paper, we carry out a case study to answer the following question: Are LLMs capable of zero-shot human activity recognition (HAR)? Our study, HARGPT, presents an affirmative answer by demonstrating that LLMs can comprehend raw IMU data and perform HAR tasks in a zero-shot manner, with only appropriate prompts. HARGPT inputs raw IMU data into LLMs and utilizes the role-play and “think step-by-step“ strategies for prompting. We benchmark HARGPT on GPT4 using two public datasets of different inter-class similarities and compare various baselines both based on traditional machine learning and state-of-the-art deep classification models. Remarkably, LLMs successfully recognize human activities from raw IMU data and consistently outperform all the baselines on both datasets. Our findings indicate that by effective prompting, LLMs can interpret raw IMU data based on their knowledge base, possessing a promising potential to analyze raw sensor data of the physical world effectively.},
+  author={Ji*, Sijie and Zheng*, Xinzhe and Wu†, Chenshu},
+  booktitle={IEEE FMSys},
+  pages={38--43},
+  year={2024},
+  organization={IEEE},
+  keywords={mobilecomputing},
+  pdf={https://ieeexplore.ieee.org/document/10590466},
+  preview={hargpt.png}
+}
+
+@inproceedings{zheng2023scamradar,
+  title={ScamRadar: Identifying Blockchain Scams When They are Promoting},
+  author={Zheng, Xinzhe and Xia, Pengcheng and Wang, Kailong and Wang†, Haoyu},
+  booktitle={International Conference on Blockchain and Trustworthy Systems},
+  pages={19--36},
+  year={2023},
+  organization={Springer},
+  keywords={mobilecomputing},
+}
+
+@article{zheng2022resource,
+  title={Resource allocation on blockchain enabled mobile edge computing system},
+  author={Zheng, Xinzhe and Zhang, Yijie and Yang, Fan and Xu, Fangmin},
+  journal={Electronics},
+  volume={11},
+  number={12},
+  pages={1869},
+  year={2022},
+  publisher={MDPI},
+  keywords={mobilecomputing}
+}
+

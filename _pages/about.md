@@ -2,18 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI for Protein | AI for Drug Discovery
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +19,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am currently a Master's student in Computer Science at the **National University of Singapore**, supervised by Prof. [Yang Zhang](https://scholar.google.com/citations?user=MtBs-kMAAAAJ&hl=en) and Dr. [Zhiyuan Liu](https://acharkq.github.io/).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interests lie at the intersection of AI and the life sciences, with a particular focus on **AI for Proteins** (including protein evolution, design, and structure prediction) and **AI for Drug Discovery** (especially structure-based drug design).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have been fortunate to gain research experience at several leading institutions. At the  **University of Florida** , I worked with  Prof. [Yanjun Li](https://yanjun-li.com/) ; at  **Rice University** , I was mentored by  Prof. [Han Xiao](https://xiao.rice.edu/People/hanxiao/hanxiao.html) ; and at  **Caltech** , I collaborated with Dr. [Sijie Ji](https://sijieji.github.io/) . Before I came to NUS, I earned my Bachelor's degree in Information Engineering from the  **Beijing University of Posts and Telecommunications**.
